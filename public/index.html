@@ -110,6 +110,30 @@
             </div>
         </div>
     </footer>
+
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBdty6vB83VI0UPB-TezdqNxE8GX7XapKs",
+    authDomain: "recetasmh.firebaseapp.com",
+    projectId: "recetasmh",
+    storageBucket: "recetasmh.appspot.com",
+    messagingSenderId: "660608617947",
+    appId: "1:660608617947:web:6ca3caa5e54ddc4d1d2bfe",
+    measurementId: "G-CBTTLT0H8J"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 
 </html>
